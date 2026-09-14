@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heróis Marvel</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <style>
+        body {
+            background: #f5f5f5;
+        }
+
+        h1, h3 {
+            font-weight: 600;
+        }
+
+        h3 {
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 0.4rem;
+            margin-bottom: 1rem;
+        }
+
+        .card {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border: none;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-title {
+            font-weight: 600;
+        }
+
+        .btn {
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+
+    <h1 class="text-center mb-4">Heróis Marvel</h1>
+
+    <h3 class="mb-3">Vingadores</h3>
+
+    <!-- Botões -->
+    <button class="btn btn-danger mb-3" data-toggle="collapse" data-target="#ironman">
+        Homem de Ferro
+    </button>
+
+    <button class="btn btn-primary mb-3" data-toggle="collapse" data-target="#cap">
+        Capitão América
+    </button>
+
+    <button class="btn btn-secondary mb-3" data-toggle="collapse" data-target="#spider">
+        Homem-Aranha
+    </button>
+
+    <button class="btn btn-info mb-3" data-toggle="collapse" data-target="#thor">
+        Thor
+    </button>
+
+    <button class="btn btn-dark mb-3" data-toggle="collapse" data-target="#pantera">
+        Pantera Negra
+    </button>
+
+    <!-- Cards -->
+    <div class="row">
+
+        <!-- Homem de Ferro -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="collapse" id="ironman">
+                <div class="card h-100">
+                    <img src="Images/Homem_Ferro.png" class="card-img-top" alt="Homem de Ferro">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Homem de Ferro</h5>
+
+                        <p class="card-text">
+                            <strong>Identidade:</strong> Tony Stark <br>
+                            <strong>1ª Aparição:</strong> Tales of Suspense #39 (1963) <br>
+                            <strong>Poderes:</strong> Armadura tecnológica, voo, força ampliada, repulsores <br>
+                            <strong>Ator (MCU):</strong> Robert Downey Jr.
+                        </p>
+
+                        <a href="https://www.marvel.com/characters/iron-man-tony-stark"
+                           target="_blank"
+                           class="btn btn-success">
+                            Saiba mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Capitão América -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="collapse" id="cap">
+                <div class="card h-100">
+                    <img src="Images/Capitao_America.webp" class="card-img-top" alt="Capitão América">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Capitão América</h5>
+
+                        <p class="card-text">
+                            <strong>Identidade:</strong> Steve Rogers <br>
+                            <strong>1ª Aparição:</strong> Captain America Comics #1 (1941) <br>
+                            <strong>Poderes:</strong> Força, agilidade e resistência sobre-humanas (soro do supersoldado), escudo de vibranium <br>
+                            <strong>Ator (MCU):</strong> Chris Evans
+                        </p>
+
+                        <a href="https://www.marvel.com/characters/captain-america-steve-rogers"
+                           target="_blank"
+                           class="btn btn-success">
+                            Saiba mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Homem-Aranha -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="collapse" id="spider">
+                <div class="card h-100">
+                    <img src="Images/Homem_Aranha.webp" class="card-img-top" alt="Homem-Aranha">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Homem-Aranha</h5>
+
+                        <p class="card-text">
+                            <strong>Identidade:</strong> Peter Parker <br>
+                            <strong>1ª Aparição:</strong> Amazing Fantasy #15 (1962) <br>
+                            <strong>Poderes:</strong> Força e agilidade aumentadas, sentido aranha, lança teias <br>
+                            <strong>Ator (MCU):</strong> Tom Holland
+                        </p>
+
+                        <a href="https://www.marvel.com/characters/spider-man-peter-parker"
+                           target="_blank"
+                           class="btn btn-success">
+                            Saiba mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thor -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="collapse" id="thor">
+                <div class="card h-100">
+                    <img src="Images/Thor.webp" class="card-img-top" alt="Thor">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Thor</h5>
+
+                        <p class="card-text">
+                            <strong>Identidade:</strong> Thor Odinson <br>
+                            <strong>1ª Aparição:</strong> Journey into Mystery #83 (1962) <br>
+                            <strong>Poderes:</strong> Força divina, controle de raios, voo, martelo Mjolnir <br>
+                            <strong>Ator (MCU):</strong> Chris Hemsworth
+                        </p>
+
+                        <a href="https://www.marvel.com/characters/thor-thor-odinson"
+                           target="_blank"
+                           class="btn btn-success">
+                            Saiba mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantera Negra -->
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="collapse" id="pantera">
+                <div class="card h-100">
+                    <img src="Images/Pantera_Negra.webp" class="card-img-top" alt="Pantera Negra">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Pantera Negra</h5>
+
+                        <p class="card-text">
+                            <strong>Identidade:</strong> T'Challa <br>
+                            <strong>1ª Aparição:</strong> Fantastic Four #52 (1966) <br>
+                            <strong>Poderes:</strong> Força e agilidade ampliadas (erva em formato de coração), traje de vibranium <br>
+                            <strong>Ator (MCU):</strong> Chadwick Boseman
+                        </p>
+
+                        <a href="https://www.marvel.com/characters/black-panther-t-challa"
+                           target="_blank"
+                           class="btn btn-success">
+                            Saiba mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
