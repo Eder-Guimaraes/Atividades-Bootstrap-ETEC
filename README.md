@@ -10,8 +10,7 @@ projeto/
 │   └── bootstrap.min.css
 ├── js/
 │   └── bootstrap.min.js
-├── Images/          # imagens usadas pelos cards e pelo carrossel
-├── imagem/          # imagens usadas pela agência de viagens
+├── Images/          # cada atividade usa uma pasta de imagens
 ├── estados-brasileiros.html
 ├── herois-marvel.html
 ├── CarroselHerois.html
